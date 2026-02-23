@@ -21,5 +21,5 @@ assert(is_leap_year(700)==True)
 
 
 while True:
-    year = input("Input a year to see if it's a leap year (don't specift AD or BC):")
+    year = input("Input a year to see if it's a leap year (no need to specify AD or BC):")
     print(is_leap_year(year))
